@@ -1,0 +1,11 @@
+# temporary files
+/tmp
+
+# vim stuff
+*.swp
+*.swo
+
+# rust stuff
+/target
+**/*.rs.bk
+Cargo.lock

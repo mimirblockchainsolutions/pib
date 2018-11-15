@@ -1,0 +1,32 @@
+[parity]
+chain = "pib/chain.json"
+no_download = true
+base_path = "pib/state/chainstate"
+keys_path = "pib/keys"
+
+[ui]
+disable = true
+
+[rpc]
+apis = ["eth","net","parity"]
+
+[websockets]
+apis = ["eth","net","parity"]
+
+[ipc]
+disable = true
+
+[secretstore]
+disable = true
+
+[network]
+node_key = "{{network_key}}"
+reserved_peers = "pib/peers.txt"
+
+[account]
+password = ["pib/account.pass"]
+
+[mining]
+engine_signer = "{{account_addr}}"
+reseal_on_txs = "none"
+

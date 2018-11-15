@@ -1,0 +1,22 @@
+[package]
+name = "pib"
+version = "0.1.0"
+authors = ["Forrest Marshall <forrest@mimirblockchain.solutions>"]
+license = "GPL-3.0"
+
+[dependencies]
+mimir-crypto = { git = "https://github.com/mimirblockchainsolutions/mimir-bridge-alpha.git" }
+mimir-types = { git = "https://github.com/mimirblockchainsolutions/mimir-bridge-alpha.git" }
+hex-core = { git = "https://github.com/forrest-marshall/hex-core.git" }
+ignore = "0.4.3"
+structopt = "0.2.10"
+ethabi = "5.1.1"
+serde_derive = "1.0.27"
+serde_json = "1.0.10"
+serde_yaml = "0.7.4"
+serde = "1.0.27"
+toml = "0.4.5"
+rand = "0.4.2"
+log = "0.4.4"
+env_logger = "0.5.12"
+
