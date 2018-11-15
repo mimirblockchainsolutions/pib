@@ -9,8 +9,8 @@ in touch with ideas for features or improvements that would make it more useful 
 
 ## About
 
-The name `pib` is a recursive acronym for "pib isn't basil" (the [emperor](https://en.wikipedia.org/wiki/Basil_I),
-not the [plant](https://en.wikipedia.org/wiki/Basil)).
+The name `pib` is a recursive acronym for "Pib Isn't Basil" ([basil](https://en.wikipedia.org/wiki/Basil_I),
+not [basil](https://en.wikipedia.org/wiki/Basil)).
 
 `pib` facilitates a fast design-build-test cycle for purpose-specific blockchain deployments
 by managing details such as account-generation, node configuration, and contract deployment.
